@@ -21,4 +21,5 @@ class Zoxide < Formula
     Adding zoxide to your shell
     see https://github.com/ajeetdsouza/zoxide#step-2-adding-zoxide-to-your-shell
   EOS
+  end
 end
