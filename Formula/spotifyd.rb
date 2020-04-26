@@ -27,12 +27,12 @@ class Spotifyd < Formula
           <string>#{plist_name}</string>
           <key>ProgramArguments</key>
           <array>
-            <string>/usr/local/bin/spotifyd</string>
-            <string>--config-path=/users/#{ENV.USER}/.config/spotifyd/spotifyd.conf</string>
+            <string>/#{opt_bin}/spotifyd</string>
+            <string>--config-path=/users/#{ENV["USER"]}/.config/spotifyd/spotifyd.conf</string>
             <string>--no-daemon</string>
           </array>
           <key>UserName</key>
-          <string>#{ENV.USER}</string>
+          <string>#{ENV["USER"]}</string>
           <key>KeepAlive</key>
           <true/>
           <key>ThrottleInterval</key>
