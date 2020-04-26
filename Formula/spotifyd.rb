@@ -27,7 +27,7 @@ class Spotifyd < Formula
           <string>#{plist_name}</string>
           <key>ProgramArguments</key>
           <array>
-            <string>/#{opt_bin}/spotifyd</string>
+            <string>#{opt_bin}/spotifyd</string>
             <string>--config-path=/users/#{ENV["USER"]}/.config/spotifyd/spotifyd.conf</string>
             <string>--no-daemon</string>
           </array>
