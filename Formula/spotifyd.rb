@@ -12,6 +12,9 @@ class Spotifyd < Formula
     sha256 "a3d01b7d74e49fa5c67946b9648f5b9c44de8290196b1858667503d8d53aa9e5"
   end
 
+  depends_on "dbus"
+  depends_on "portaudio"
+
   def install
     bin.install "spotifyd"
   end
