@@ -1,5 +1,5 @@
 class Spotifyd < Formula
-  desc "A cd command that learns your habits"
+  desc "An open source Spotify client running as a UNIX daemon"
   homepage "https://github.com/Spotifyd/spotifyd"
   version "0.2.24"
   bottle :unneeded
