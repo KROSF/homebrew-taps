@@ -1,15 +1,15 @@
 class Zoxide < Formula
   desc "A cd command that learns your habits"
   homepage "https://github.com/ajeetdsouza/zoxide"
-  version "0.4.0"
+  version "0.4.1"
   bottle :unneeded
 
   if OS.mac?
     url "https://github.com/ajeetdsouza/zoxide/releases/download/v#{version}/zoxide-x86_64-apple-darwin"
-    sha256 "3fa9a5b1fd1b475e58146b3b926bf378c3ac46e29a3a2a47dcf66049dbf37dfc"
+    sha256 "52f1d54caf54077ea152ff2eb222447967d99313ebbcbaa994f77ddba43eae0c"
   elsif OS.linux?
     url "https://github.com/ajeetdsouza/zoxide/releases/download/v#{version}/zoxide-x86_64-unknown-linux-gnu"
-    sha256 "7cf5a3e3ee001042de0fd2fc2fb0d316c0d77eca67df9525de4f8a44ea8d4251"
+    sha256 "98c7792c28d08bbaa29d630d809684bc8fc4020aadeed7010d3e69dd88e7d764"
   end
 
   def install
